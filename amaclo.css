@@ -3,7 +3,19 @@
     font-family: Arial;
     border:border-box;
 }
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px;
+  box-sizing: border-box;
 
+  display: flex;
+  flex-direction: column;   /* stack items vertically */
+  justify-content: space-between;
+}
 .navbar{
     height:60px;
     background-color: #0f1111;
