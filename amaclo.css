@@ -183,27 +183,25 @@ header{
   background-color: #bbbbbb;
   
 }
-.box {
+
+  .box {
   height: 400px;
   width: 23%;
   background-color: white;
-  position:relative;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
 .box-img{
-    height:300px;
+    height:250px;              /* fixed same height for all */
     width:100%;
-    background-size: cover;
-     background-repeat: no-repeat;
+    background-size: cover;    /* keeps ratio, crops nicely */
+    background-position: center; /* centers image */
+    background-repeat: no-repeat;
     margin-top: 0.75rem;
     margin-bottom: 1rem;
-
-    
 }
 .box-content{
     margin-top:35px;
